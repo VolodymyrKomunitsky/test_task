@@ -1,0 +1,17 @@
+@import "../base/_reset";
+@import "../base/_fonts";
+
+/* example mixins */
+
+.font{
+	@include font(14px,18px,#000);
+}
+.gradient{
+	@include gradient(left, right, rgba(0,0,0,1), rgba(255,255,255,1));
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+
+/* example mixins */
